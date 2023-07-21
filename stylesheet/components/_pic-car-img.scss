@@ -1,0 +1,49 @@
+// $hoverImage: "./car-img/gt43.jpg";
+
+
+
+.pic-car-img{
+
+    
+
+    img{
+
+        position: center center;
+        object-fit: cover;
+        height: 424px;
+        width: 100%;
+        transition: opacity 0.8s ease;
+        opacity: 1;
+
+    }
+    
+    &:hover {
+
+        img {
+            opacity: 0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 424px;
+            width: 100%;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-image: url('/car-img/gt43.jpg');
+            border-radius: 16px 16px 0 0;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    
+
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,13 @@
+.show-card-detail{
+
+    .c1{
+
+        transition: opacity 0.3s ease;
+        opacity: 0;
+
+        &:hover{
+
+            opacity: 1;
+        }
+    }
+}
