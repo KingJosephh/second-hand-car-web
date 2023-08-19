@@ -1,10 +1,5 @@
-
-
-
     .img-opacity {
-
         img{
-
             position: center center;
             object-fit: cover;
             height: 424px;
@@ -14,15 +9,12 @@
             position: absolute;
         }
         
-
         &:hover{
             
             img{
-
                 opacity: 0;
             }
             button{
-
                 color: $info;
             }
         }
