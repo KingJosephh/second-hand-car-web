@@ -11,41 +11,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-            <div class="container-fluid d-flex flex-nowrap px-lg-6 px-1">
-                <a class="navbar-brand py-4" href="#">
-                    <img src="./car-img/logo.png" alt="" style="height: 40px;">
-                </a>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="container-fluid d-flex justify-content-between pe-4">
+                    <a class="navbar-brand" href="#"><img src="./car-img/logo.png" alt="" style="height: 40px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-info" aria-current="page" href="./index.html">首頁</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./page2.html">服務介紹</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./page3.html">熱門車款</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./page5.html">近期好車</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pt-1" href="./page4.html">
-                                    <button class="btn btn-info rounded-pill btn-sm px-3">預約賞車</button>
-                                </a>
-                            </li>
-                        </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-end text-nowrap" aria-current="page" href="./index.html"><p class="mb-0 me-lg-0 me-5">首頁</p></a>
+                        <a class="nav-link text-end text-nowrap" href="./page2.html"><p class="mb-0 me-lg-0 me-3">服務介紹</p></a>
+                        <a class="nav-link text-end text-nowrap" href="./page3.html"><p class="mb-0 me-lg-0 me-3">熱門車款</p></a>
+                        <a class="nav-link text-end text-nowrap" href="./page5.html"><p class="mb-0 me-lg-0 me-3">近期好車</p></a>
+                        <a class="nav-link bottom-0 end-0 pt-1 text-nowrap text-end" href="./page4.html">
+                            <button class="btn btn-info rounded-pill btn-sm px-3">預約賞車</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -70,47 +56,54 @@
                 <div class="card-body">
                     <form class="row g-3">
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">名子</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <label for="名子" class="form-label">名子</label>
+                            <input type="text" class="form-control" id="名子">
                         </div>
                         <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">姓氏</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <label for="姓氏" class="form-label">姓氏</label>
+                            <input type="text" class="form-control" id="姓氏">
                         </div>
                         <div class="col-12">
-                            <label for="inputAddress" class="form-label">手機號碼</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            <label for="手機號碼" class="form-label">手機號碼</label>
+                            <input type="text" class="form-control" id="手機號碼" placeholder="請輸入手機號碼">
                         </div>
                         <div class="col-12">
-                            <label for="inputAddress2" class="form-label">Address 2</label>
-                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            <label for="地址" class="form-label">地址</label>
+                            <input type="text" class="form-control" id="地址" placeholder="Apartment, studio, or floor">
                         </div>
                         <div class="col-md-6">
-                            <label for="inputState" class="form-label">State</label>
-                            <select id="inputState" class="form-select">
+                            <label for="城市" class="form-label">城市</label>
+                            <select id="城市" class="form-select">
                                 <option selected>請選擇城市</option>
-                                <option>...</option>
+                                <option>台北</option>
+                                <option>高雄</option>
                             </select>
                         </div>
                         <div class="col-md-6">
-                            <label for="inputState" class="form-label">State</label>
-                            <select id="inputState" class="form-select">
+                            <label for="區域" class="form-label">區域</label>
+                            <select id="區域" class="form-select">
                                 <option selected>請選擇區域</option>
                                 <option>...</option>
                             </select>
                         </div>
                         <div class="col-md-12">
-                            <label for="inputState" class="form-label">State</label>
-                            <select id="inputState" class="form-select">
+                            <label for="預約業務" class="form-label">預約業務</label>
+                            <select id="預約業務" class="form-select">
                                 <option selected>選擇預約業務</option>
-                                <option>...</option>
+                                <option>Ethan</option>
+                                <option>Olivia</option>
+                                <option>Liam</option>
+                                <option>Emma</option>
+                                <option>Noah</option>
+                                <option>Ava</option>
                             </select>
                         </div>
                         <div class="col-md-12">
-                            <label for="inputState" class="form-label">State</label>
-                            <select id="inputState" class="form-select">
+                            <label for="付款方式" class="form-label">付款方式</label>
+                            <select id="付款方式" class="form-select">
                                 <option selected>付款方式</option>
-                                <option>...</option>
+                                <option>現金</option>
+                                <option>刷卡</option>
                             </select>
                         </div>
                         <div class="col-12 d-flex">
@@ -148,21 +141,21 @@
             <div class="col-8">
                 <div class="row m-0">
                     <div class="col d-flex justify-content-center mb-5">
-                        <i class="bi bi-bookmarks fs-s-104 text-info"></i>
+                        <i class="bi bi-person-hearts fs-s-104 text-info"></i>
                         <div class="ps-4 d-flex flex-column justify-content-center">
                             <h5>加入我們的團隊</h5>
                             <P>我會賣車，希望能盡一份心力</P>
-                            <a href="/">
+                            <a href="./page4.html">
                                 <button class="btn btn-outline-dark"><p class="m-0 px-4 text-nowrap">聯絡我們</p></button>
                             </a>
                         </div>
                     </div>
                     <div class="col d-flex justify-content-center mb-5">
-                        <i class="bi bi-bookmarks fs-s-104 text-info"></i>
+                        <i class="bi bi-coin fs-s-104 text-info"></i>
                         <div class="ps-4 d-flex flex-column justify-content-center">
-                            <h5>加入我們的團隊</h5>
-                            <P>我會賣車，希望能盡一份心力</P>
-                            <a href="/">
+                            <h5>贊助我們的團隊</h5>
+                            <P>我有好車，請團隊估車</P>
+                            <a href="./page4.html">
                                 <button class="btn btn-outline-dark"><p class="m-0 px-4 text-nowrap">估車專欄</p></button>
                             </a>
                         </div>

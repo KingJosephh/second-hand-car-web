@@ -45,8 +45,7 @@ $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
-// $cyan:    #0dcaf0 !default;
-$cyan:    #01F0EA !default;
+$cyan:    #0dcaf0 !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -302,7 +301,8 @@ $cyans: (
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+// $info:          $cyan !default;
+$info:          #ffb300 !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
@@ -314,7 +314,7 @@ $theme-colors: (
   "primary":    $primary,
   "secondary":  #D0D0D0,
   "success":    $success,
-  "info":       $info,
+  "info":       #ffb300,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
