@@ -15,7 +15,7 @@
     <section class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <div class="container-fluid d-flex justify-content-between pe-4">
+                <div class="container-fluid d-flex justify-content-between pe-4 flex-row-reverse-logo">
                     <a class="navbar-brand" href="#"><img src="./car-img/logo.png" alt="" style="height: 40px;"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -23,12 +23,12 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-info text-end text-nowrap" aria-current="page" href="./index.html"><p class="mb-0 me-lg-0 me-5">首頁</p></a>
-                        <a class="nav-link text-end text-nowrap" href="./page2.html"><p class="mb-0 me-lg-0 me-3">服務介紹</p></a>
-                        <a class="nav-link text-end text-nowrap" href="./page3.html"><p class="mb-0 me-lg-0 me-3">熱門車款</p></a>
-                        <a class="nav-link text-end text-nowrap" href="./page5.html"><p class="mb-0 me-lg-0 me-3">近期好車</p></a>
-                        <a class="nav-link bottom-0 end-0 pt-1 text-nowrap text-end" href="./page4.html">
-                            <button class="btn btn-info rounded-pill btn-sm px-3">預約賞車</button>
+                        <a class="nav-link active text-info text-start text-nowrap" aria-current="page" href="./index.html"><p class="mb-0 me-lg-0 ms-3">首頁</p></a>
+                        <a class="nav-link text-start text-nowrap" href="./page2.html"><p class="mb-0 ms-lg-0 ms-3">服務介紹</p></a>
+                        <a class="nav-link text-start text-nowrap" href="./page3.html"><p class="mb-0 ms-lg-0 ms-3">熱門車款</p></a>
+                        <a class="nav-link text-start text-nowrap" href="./page5.html"><p class="mb-0 ms-lg-0 ms-3">近期好車</p></a>
+                        <a class="nav-link bottom-0 end-0 pt-1 text-nowrap text-start" href="./page4.html">
+                            <button class="btn btn-info rounded-pill btn-sm px-3 ms-lg-0 ms-2">預約賞車</button>
                         </a>
                     </div>
                 </div>
@@ -52,14 +52,14 @@
                 <div class="position-absolute top-50 start-50 translate-middle">
                 <p class="display-1 fw-bold text-secondary">芒果 國際</p>
                 <hr class="mb-1 mx-n3 text-secondary">
-                <p class="h4 mt-3 text-start ps-lg-4 ps-1 fw-bold text-info">英雄可以沒有家</p>
-                <p class="h4 mt-3 text-center ps-1 fw-bold text-info">但是不能沒有戰馬</p>
+                <p class="h4 mt-3 text-center fw-bold text-info">英雄可以沒有家</p>
+                <p class="h4 mt-3 text-center fw-bold text-info">但是不能沒有戰馬</p>
             </div>
         </div>
     </section>
     <section class="mb-5">
         <div class="row d-flex justify-content-center m-0">
-            <div class="col-lg-10">
+            <div class="col-lg-10 p-0">
                 <div class="row d-flex flex-row-reverse justify-content-center m-0 row-cols-1 row-cols-lg-2">
                     <div class="col d-flex flex-column justify-content-center">
                         <h2 class="kalma h4">Service</h2>
@@ -84,47 +84,51 @@
             <div class="d-flex justify-content-center pb-5">
                 <img src="./car-img/title1.png" alt="近期好車">
             </div>
-            <div class="row g-4 m-0 row-cols-lg-4 row-cols-2 px-lg-0 px-4">
-                <div class="col">
-                    <div class="card border-0 text-white show-card-detail">
-                        <img class="card-img car-model rounded-4" src="./car-img/s63.jpg" alt="s63">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end">
-                            <p class="fw-bold mb-0">車種</p>
-                            <p class="text-nowrap m-0 title">Mercedes-AMG s63</p>
-                            <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row g-4 m-0 row-cols-lg-4 row-cols-2 px-lg-0 px-4">
+                        <div class="col">
+                            <div class="card border-0 text-white show-card-detail">
+                                <img class="card-img car-model rounded-4" src="./car-img/s63.jpg" alt="s63">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <p class="c2 fw-bold mb-0">車種</p>
+                                    <p class="c2 text-nowrap m-0 title">Mercedes-AMG s63</p>
+                                    <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 text-white show-card-detail">
-                        <img class="card-img car-model rounded-4" src="./car-img/911turbo.jpg" alt="911turbo">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end">
-                            <p class="fw-bold mb-0">車種</p>
-                            <p class="text-nowrap m-0 title">porsche-911 turbo S</p>
-                            <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                        <div class="col">
+                            <div class="card border-0 text-white show-card-detail">
+                                <img class="card-img car-model rounded-4" src="./car-img/911turbo.jpg" alt="911turbo">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <p class="c2 fw-bold mb-0">車種</p>
+                                    <p class="c2 text-nowrap m-0 title">porsche-911 turbo S</p>
+                                    <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 text-white show-card-detail">
-                        <img class="card-img car-model rounded-4" src="./car-img/x6.jpg" alt="x6">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end">
-                            <p class="fw-bold mb-0">車種</p>
-                            <p class="text-nowrap m-0 title">BMW X6</p>
-                            <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                        <div class="col">
+                            <div class="card border-0 text-white show-card-detail">
+                                <img class="card-img car-model rounded-4" src="./car-img/x6.jpg" alt="x6">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <p class="c2 fw-bold mb-0">車種</p>
+                                    <p class="c2 text-nowrap m-0 title">BMW X6</p>
+                                    <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 text-white show-card-detail">
-                        <img class="card-img car-model rounded-4" src="./car-img/r4.jpg" alt="r4">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end">
-                            <p class="fw-bold mb-0">車種</p>
-                            <p class="text-nowrap m-0 title">toyota Corolla Cross</p>
-                            <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                        <div class="col">
+                            <div class="card border-0 text-white show-card-detail">
+                                <img class="card-img car-model rounded-4" src="./car-img/r4.jpg" alt="r4">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <p class="c2 fw-bold mb-0">車種</p>
+                                    <p class="c2 text-nowrap m-0 title">toyota Corolla Cross</p>
+                                    <div class="c1 card-img-overlay gradient car-model rounded-4  ">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -139,7 +143,7 @@
         <p class="text-center mb-6">這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
         <div class="row px-lg-6 m-0 d-flex justify-content-center">
             <div class="col-lg-12">
-                <div class="row m-0 row-cols-lg-3 row-cols-1 gy-3">
+                <div class="row m-0 row-cols-lg-3 row-cols-1 gy-3 px-4">
                     <div class="col bg-transparent px-4">
                         <div class="card border-0 hover-shadow-lg img-opacity rounded-4 h-100">
                             <a href="./page6.html" class="card-link d-block h-100 link-unstyled text-reset text-decoration-none position-relative">
